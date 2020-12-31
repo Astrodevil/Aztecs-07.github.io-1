@@ -86,3 +86,52 @@ body {
 		  width: 100%;
 		  height: 100%;
 		}
+		.credits{
+			right: 50%;
+			font-family: sans-serif ;
+			display: flex;
+			flex-direction: column;
+			
+
+		}
+		.effect-wrap .effect{
+			position: absolute;
+			z-index: -1;
+		  }
+		  .effect-1{
+			  right: -170px;
+			
+
+		  
+		  bottom: 70%;
+		  width: 500px;
+		  display: flex;
+		  flex-wrap: nowrap;
+		  flex-direction: column;
+		  
+
+		  flex-wrap: wrap;
+		  justify-content: space-between;
+		  animation: leftBounce 3s ease-in-out infinite
+		  }
+		  .effect-1 div{
+		  height:20px;
+		  width: 60px;
+		  background-color: #ff9c07;
+		  margin:0 3px 8px;
+		  }
+		  @keyframes leftBounce{
+		  0%,100%{
+		  transform: translateX(0px);
+		  }
+		  50%{
+		  transform: translateX(25px);
+		  }
+		  }
+		  .x{
+			  text-align: center;
+		  }
+		  .y{
+			  flex-grow: 1;
+		  }
+		  
